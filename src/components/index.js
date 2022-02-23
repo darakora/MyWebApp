@@ -9,5 +9,5 @@ export {
   Newsletter,
   FooterOverlay,
   MenuItem,
-  Navbar,
+  Navbar
 };
