@@ -1,6 +1,8 @@
 .app__navbar {
   width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 3;
   justify-content: space-between;
   align-items: center;
   background: var(--color-black);
@@ -113,7 +115,7 @@
   .app__navbar-links {
     display: none;
   }
-  
+
   .app__navbar-smallscreen {
     display: flex;
   }
