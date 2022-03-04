@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Quicksand:wght@500&family=Syne+Mono&display=swap');
 
 :root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
+  /* --font-base: 'Quicksand', sans-serif; */
+  --font-base: 'Syne Mono', monospace;
+  --font-alt: 'Inconsolata', monospace;
   
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
+  /* --color-golden: #8fc26d; */
+  --color-golden: #7CD2B3;
+  --color-black: #555050;
+  --color-black_navbar: #55505054;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  /* --color-crimson: #F5EFDB; */
+  --color-crimson: #aee7df;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 }

@@ -30,51 +30,51 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Trial Lesson',
+    price: '$5',
+    tags: 'Orem ipsum dolor sit amet',
+  },
+  {
+    title: 'One-time session',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Vivamus eget imperdiet turpis | Nullam malesuada ligula',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Pass for 4 lessons',
+    price: '$70',
+    tags: 'Curabitur luctus facilisis eros et ultrices',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Pass for 6 lessons',
+    price: '$90',
+    tags: 'Suspendisse maximus sapien nec | Nullam malesuada ligula',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Pass for 10 lessons',
+    price: '$100',
+    tags: 'Orem ipsum dolor sit amet | Consectetur adipiscing elit',
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
+    title: 'Our team',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
+    title: 'Our Art',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
+    title: 'Our experience',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
+    title: 'Our history',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
