@@ -9,10 +9,14 @@ import { images } from "../../constants";
 import "./Gallery.css";
 
 const galleryImages = [
-  images.gallery01,
-  images.gallery02,
-  images.gallery03,
-  images.gallery04,
+  // images.gallery01,
+  // images.gallery02,
+  // images.gallery03,
+  // images.gallery04,
+  images.gallery_test1,
+  images.gallery_test2,
+  images.gallery_test3,
+  images.gallery_test4,
 ];
 
 const Gallery = () => {
@@ -31,14 +35,14 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        {/* <SubHeading title="~.~.~.~.~.~.~.~.~.~.~.~.~.~.~" /> */}
+        <h1 className="headtext__cormorant">Art Gallery</h1>
         <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
         <button type="button" className="custom__button">
-          Vie More
+          Instagram
         </button>
       </div>
 
