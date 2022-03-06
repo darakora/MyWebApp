@@ -8,10 +8,10 @@ import { images } from "../../constants";
 import "./Gallery.css";
 
 const galleryImages = [
-  images.gallery1,
+  images.gallery4,
   images.gallery2,
   images.gallery3,
-  images.gallery4,
+  images.gallery1,
 ];
 
 const Gallery = () => {
@@ -35,7 +35,7 @@ const Gallery = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
-        <a href="https://www.instagram.com/art_mint_creators/" target="_blank" rel="noreferrer" type="button" className="custom__button" style={{ marginTop: '2rem' }}>Instagram</a>
+        <a href="https://www.instagram.com/art_mint_studio/" target="_blank" rel="noreferrer" type="button" className="custom__button" style={{ marginTop: '2rem' }}>Instagram</a>
       </div>
 
       <div className="app__gallery-images">

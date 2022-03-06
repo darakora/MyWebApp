@@ -19,7 +19,7 @@ const Footer = () => (
         <p className="p_inconsolata">"Everything you can imagine is real.”</p>
         <div className="app__footer-links_icons">
           <FiFacebook />
-          <a href="https://www.instagram.com/art_mint_creators/" target="_blank" rel="noreferrer" alt="inst">
+          <a href="https://www.instagram.com/art_mint_studio/" target="_blank" rel="noreferrer" alt="inst">
             <FiInstagram />
           </a>
         </div>
