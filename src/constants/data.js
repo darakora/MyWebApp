@@ -1,34 +1,5 @@
-import images from './images';
 
-const wines = [
-  {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
-];
-
-const cocktails = [
+const lessons = [
   {
     title: 'Trial Lesson',
     price: '$5',
@@ -56,27 +27,23 @@ const cocktails = [
   },
 ];
 
-const awards = [
+const aboutus = [
   {
-    imgUrl: images.award02,
     title: 'Our team',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award01,
     title: 'Our Art',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award05,
     title: 'Our experience',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award03,
     title: 'Our history',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { lessons, aboutus };

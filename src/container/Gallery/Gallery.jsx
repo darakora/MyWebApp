@@ -4,19 +4,14 @@ import {
   BsArrowLeftShort,
   BsArrowRightShort,
 } from "react-icons/bs";
-import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Gallery.css";
 
 const galleryImages = [
-  // images.gallery01,
-  // images.gallery02,
-  // images.gallery03,
-  // images.gallery04,
-  images.gallery_test1,
-  images.gallery_test2,
-  images.gallery_test3,
-  images.gallery_test4,
+  images.gallery4,
+  images.gallery2,
+  images.gallery3,
+  images.gallery1,
 ];
 
 const Gallery = () => {
@@ -35,13 +30,12 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        {/* <SubHeading title="~.~.~.~.~.~.~.~.~.~.~.~.~.~.~" /> */}
-        <h1 className="headtext__cormorant">Art Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
+        <h1 className="headtext__syne_mono_mint">Art Gallery</h1>
+        <p className="p_inconsolata" style={{ color: "#AAA", marginTop: "2rem" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
-        <a href="https://www.instagram.com/art_mint_creators/" target="_blank" type="button" className="custom__button" style={{ marginTop: '2rem' }}>Instagram</a>
+        <a href="https://www.instagram.com/art_mint_studio/" target="_blank" rel="noreferrer" type="button" className="custom__button" style={{ marginTop: '2rem' }}>Instagram</a>
       </div>
 
       <div className="app__gallery-images">
