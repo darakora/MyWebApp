@@ -1,43 +1,30 @@
 import React from "react";
-import { images } from "../../constants";
+import { SubHeading } from "../../components";
+import { data, images } from "../../constants";
 import "./AboutUs.css";
 
-const AboutUs = () => (
-  <div className="app__aboutus app__bg flex__center section__padding"
-    id="about">
-    <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="g letter" />
+const AwardCard = ({ award: { title, subtitle } }) => (
+  <div className="app__laurels_awards-card">
+    <div className="app__laurels_awards-card_content">
+      <p className="p__cormorant" style={{color: "#8D48B4"}}>{title}</p>
+      <p className="p__cormorant">{subtitle}</p>
     </div>
-    <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
-        </p>
-        <button type="button" className="custom__button">
-          Know More
-        </button>
-      </div>
+  </div>
+);
 
-      <div className="app__aboutus-content_knife flex__center">
-        <img src={images.knife} alt="about_knife"></img>
+const AboutUs = () => (
+  <div className="app__bg app__wrapper section__padding" id="about">
+    <div className="app__wrapper_info">
+      <SubHeading title="'Become a part of us'" />
+      <h1 className="headtext__cormorant_tets">About Us</h1>
+      <div className="app__laurels_awards">
+        {data.aboutus.map((award) => (
+          <AwardCard award={award} key={award.title} />
+        ))}
       </div>
-
-      <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
-        </p>
-        <button type="button" className="custom__button">
-          Know More
-        </button>
-      </div>
+    </div>
+    <div className="app__wrapper_img">
+      <img src={images.laurels_test} alt="laurels"/>
     </div>
   </div>
 );
