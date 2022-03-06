@@ -12,15 +12,15 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">9Art Mint School of Drawing and Painting, 8 W 8th St, New York</p>
+        <p className="p__opensans">
+          9Art Mint School of Drawing and Painting, 8 W 8th St, New York
+        </p>
         <p className="p__opensans">+7 888-676-234</p>
         <p className="p__opensans">+7 888-565-098</p>
       </div>
       <div className="app__footer-links_logo">
         <img src={images.vector} alt="footer__logo" />
-        <p className="p__opensans">
-          "Everything you can imagine is real.”
-        </p>
+        <p className="p__opensans">"Everything you can imagine is real.”</p>
         {/* <img
           src={images.spoon}
           alt="spoon"
@@ -29,8 +29,10 @@ const Footer = () => (
         /> */}
         <div className="app__footer-links_icons">
           <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          {/* <FiTwitter /> */}
+          <a href="https://www.instagram.com/art_mint_creators/" target="_blank" alt="inst">
+            <FiInstagram />
+          </a>
         </div>
       </div>
       <div className="app__footer-links_work">
