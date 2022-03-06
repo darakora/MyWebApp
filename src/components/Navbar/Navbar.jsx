@@ -16,14 +16,14 @@ const Navbar = () => {
        
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#motivation">Motivation</a></li>
-        <li className="p__opensans"><a href="#price">Price</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p_inconsolata"><a href="#home">Home</a></li>
+        <li className="p_inconsolata"><a href="#about">About</a></li>
+        <li className="p_inconsolata"><a href="#motivation">Motivation</a></li>
+        <li className="p_inconsolata"><a href="#price">Price</a></li>
+        <li className="p_inconsolata"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#home" className="p__opensans">Log In / Sign Up</a>
+        <a href="#home" className="p_inconsolata">Log In / Sign Up</a>
       </div>
       <div className="app__navbar-smallscreen">
         <BiMenu color="#fff" fontSize={27} onClick={() => setTogglePrice(true)} />

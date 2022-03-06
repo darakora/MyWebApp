@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background: var(--color-black);
+  background: var(--color-brown);
   padding-top: 0;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .app__footer-links_icons svg:hover {
-  color: var(--color-golden);
+  color: var(--color-mint);
 }
 
 .app__footer-headtext {

@@ -6,7 +6,7 @@ import './Price.css';
 const Price = () => (
   <div className="app__price flex__center section__padding" id="price">
     <div className="app__price-title">
-      <h1 className="headtext__cormorant">Art Mint</h1>
+      <h1 className="headtext__syne_mono_mint">Art Mint</h1>
     </div>
 
     <div className="app__price-list">

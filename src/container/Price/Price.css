@@ -1,6 +1,6 @@
 .app__price {
     flex-direction: column;
-    background: var(--color-black);
+    background: var(--color-brown);
 }
 
 .app__price-title {
