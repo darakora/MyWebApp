@@ -9,10 +9,7 @@
 }
 
 .app__bg {
-  /* background: url("./assets/test__bg.png"); */
   background: url("./assets/bg.jpg");
-  /* background-color: rgb(105, 105, 105); */
-  /* background: url('./assets/bg.png'); */
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
