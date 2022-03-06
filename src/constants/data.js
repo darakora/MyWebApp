@@ -32,7 +32,7 @@ const cocktails = [
   {
     title: 'Trial Lesson',
     price: '$5',
-    tags: 'Orem ipsum dolor sit amet',
+    tags: 'Lorem ipsum dolor sit amet',
   },
   {
     title: 'One-time session',
@@ -52,7 +52,7 @@ const cocktails = [
   {
     title: 'Pass for 10 lessons',
     price: '$100',
-    tags: 'Orem ipsum dolor sit amet | Consectetur adipiscing elit',
+    tags: 'Lorem ipsum dolor sit amet | Consectetur adipiscing elit',
   },
 ];
 
