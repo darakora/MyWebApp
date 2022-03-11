@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyWebApp/static/css/main.6d5f4d16.css",
+    "main.js": "/MyWebApp/static/js/main.c347c647.js",
+    "static/media/video_painting.mp4": "/MyWebApp/static/media/video_painting.b48d5c72ea73a8d0e55e.mp4",
+    "static/media/gallery2.jpg": "/MyWebApp/static/media/gallery2.fd4673db3c492d3afc09.jpg",
+    "static/media/gallery4.jpg": "/MyWebApp/static/media/gallery4.038b31f7a6f14fe46a41.jpg",
+    "static/media/gallery3.jpg": "/MyWebApp/static/media/gallery3.3d0ad01f7174d36b2c49.jpg",
+    "static/media/welcome.jpg": "/MyWebApp/static/media/welcome.9b73fa7cf6d660a340ee.jpg",
+    "static/media/findus.jpg": "/MyWebApp/static/media/findus.b2165bffeb5b0031e764.jpg",
+    "static/media/paints.jpg": "/MyWebApp/static/media/paints.7bffecfc776f7b3cbf9e.jpg",
+    "static/media/gallery1.jpg": "/MyWebApp/static/media/gallery1.83c6a3e8e72a9f448d52.jpg",
+    "static/media/brush_men.jpg": "/MyWebApp/static/media/brush_men.fa525c42b7c70efb924d.jpg",
+    "static/media/bg.jpg": "/MyWebApp/static/media/bg.396c9ca64cd32cbe99e5.jpg",
+    "static/media/price_img.jpg": "/MyWebApp/static/media/price_img.43e5465b2f23cb433af9.jpg",
+    "static/media/vector.svg": "/MyWebApp/static/media/vector.d61ddd0bcad30f6e09d871ffbaa6a32d.svg",
+    "index.html": "/MyWebApp/index.html",
+    "main.6d5f4d16.css.map": "/MyWebApp/static/css/main.6d5f4d16.css.map",
+    "main.c347c647.js.map": "/MyWebApp/static/js/main.c347c647.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d5f4d16.css",
+    "static/js/main.c347c647.js"
+  ]
+}
